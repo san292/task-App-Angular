@@ -1,0 +1,28 @@
+<form class="add-form" (ngSubmit)="onSubmit()">
+  <div class="form-control">
+
+    <label for="text">List</label>
+
+    <!-- [(ngModel)]='text' pour lier lentrée de l'input à l'évènement 
+    le nom aprés  ng model doit être le même que celui de l'input -->
+
+    <input type="text" name="text" [(ngModel)]="text"  id="text" placeholder="Ajouter votre tache" />
+
+  </div>
+  <div class="form-control">
+
+    <label for="day">Jour et Heure</label>
+    <input type="text" name="day" [(ngModel)]="day" id="day" placeholder="Ajouter votre jour et heure" />
+
+  </div>
+  <div class="form-control form-control-check">
+
+    <label for="reminder">Mis à jour tâche</label>
+    <input type="checkbox" name="reminder" [(ngModel)]="reminder" id="reminder" />
+
+</div>
+
+<!-- grace a [(ngModel)]="text" on peut afficher le texte ici -->
+{{text}}
+<input type="submit" value="Enregistrer" class="btn btn-block"/>
+</form>
