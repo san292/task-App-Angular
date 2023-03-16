@@ -20,5 +20,5 @@ export const TASKS: Task[] = [
     text: 'Meeting EuroNews',
     day: 'Mars21th at 10:30',
     reminder: false,
-  },
+  }
 ];
