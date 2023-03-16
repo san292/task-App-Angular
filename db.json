@@ -2,14 +2,20 @@
   "tasks": [
     {
       "id": 2,
-      "text": "Meeting michelin",
+      "text": "Meeting EuroNews",
       "day": "Mars 22th at 10:30'",
       "reminder": true
     },
     {
       "id": 3,
-      "text": "Meeting EuroNews",
-      "day": "Mars 21th at 14:30'",
+      "text": "Grand lyon",
+      "day": "Mars 22th at 10:30'",
+      "reminder": false
+    },
+    {
+      "id": 3,
+      "text": "Grand lyon",
+      "day": "Mars 22th at 10:30'",
       "reminder": true
     }
   ]
